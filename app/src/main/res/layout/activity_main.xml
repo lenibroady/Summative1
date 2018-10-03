@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="#32CD32"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/eis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everything is fine."
+        android:textColor="#32CD32"
+        android:textSize="40dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thegoodplace1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="290dp"
+            />
+        
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
